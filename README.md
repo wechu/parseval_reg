@@ -5,7 +5,6 @@ Official repository for the paper "Parseval Regularization for Continual Reinfor
 Parseval regularization is designed to address loss of plasticity. This is demonstrated in sequences of reinforcement learning tasks.
 
 Experiments were run using Python3.10.
-
 Download the repo and navigate to the `parseval_reg` folder. Unstall the requirements using:
 ```
 pip install -r reqs.txt
@@ -19,6 +18,8 @@ By default, this will run the MetaWorld environments for the baseline and Parsev
 For the other environments, change the `env_to_run` variable to one of: `'metaworld', 'carl_dmcquadruped', 'carl_lunarlander', 'gridworld'`
 
 You can use the `python run_many.py --test_run` command to run a very small test to check the code works. It should finish in less than 1 minute. 
+
+For running specific configurations, you can use the `main.py` file along with the appropriate arguments.
 
 ### Citation
 ```
